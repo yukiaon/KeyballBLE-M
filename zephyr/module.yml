@@ -1,4 +1,4 @@
-name: KeyballBLE
+name: KeyballBLE-M
 build:
   settings:
     board_root: config
