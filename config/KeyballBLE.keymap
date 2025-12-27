@@ -75,7 +75,7 @@
 &trans  &trans         &trans     &trans         &trans     &trans                  &trans                  &trans                &trans                                                                       &kp NON_US_BACKSLASH  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LANG4 LANG_ZENKAKUHANKAKU>;
+            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
 
         NUM {
