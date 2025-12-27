@@ -78,10 +78,10 @@
 
         NUM {
             bindings = <
-&trans  &trans         &trans  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans                                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp LA(LS(F))  &trans  &kp LANG_HIRAGANA       &kp LANGUAGE_5           &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp EQUAL              &trans
-&trans  &trans         &trans  &kp KP_NUMBER_2         &kp KP_NUMBER_3          &kp PERIOD    &kp EQUAL                  &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SINGLE_QUOTE      &kp BACKSLASH          &trans
-&trans  &trans         &trans  &trans                  &trans                   &trans        &trans                     &trans          &trans                                                          &kp PIPE               &trans
+&trans  &trans         &trans  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans                                                 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&trans  &kp LA(LS(F))  &trans  &kp LANG_HIRAGANA       &kp LANGUAGE_5           &trans      &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp EQUAL              &trans
+&trans  &trans         &trans  &trans                  &trans                   &kp PERIOD  &kp EQUAL                  &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SINGLE_QUOTE      &kp BACKSLASH          &trans
+&trans  &trans         &trans  &trans                  &trans                   &trans      &trans                     &trans          &trans                                                          &kp PIPE               &trans
             >;
         };
 
