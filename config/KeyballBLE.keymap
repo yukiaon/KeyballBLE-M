@@ -74,14 +74,16 @@
 &trans  &kp LG(Z)      &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LS(LG(DOWN_ARROW))  &kp LG(MINUS)    &kp LG(LS(EQUAL))  &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &kp LG(SLASH)         &trans
 &trans  &trans         &trans     &trans         &trans     &trans                  &trans           &trans             &trans                                                                       &kp NON_US_BACKSLASH  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LANG4 LANG_ZENKAKUHANKAKU>;
         };
 
         NUM {
             bindings = <
-&trans  &trans         &trans  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans                                                 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK
-&trans  &kp LA(LS(F))  &trans  &kp LANG_HIRAGANA       &kp LANGUAGE_5           &trans      &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp EQUAL              &trans
-&trans  &trans         &trans  &trans                  &trans                   &kp PERIOD  &kp EQUAL                  &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SINGLE_QUOTE      &kp BACKSLASH          &trans
-&trans  &trans         &trans  &trans                  &trans                   &trans      &trans                     &trans          &trans                                                          &kp PIPE               &trans
+&trans  &trans         &trans  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&trans  &kp LA(LS(F))  &trans  &kp LANG_HIRAGANA       &kp LANGUAGE_5           &trans      &trans       &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp EQUAL              &trans
+&trans  &trans         &trans  &trans                  &trans                   &kp PERIOD  &kp EQUAL    &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SINGLE_QUOTE      &kp BACKSLASH          &trans
+&trans  &trans         &trans  &trans                  &trans                   &trans      &trans       &trans          &trans                                                          &kp PIPE               &trans
             >;
         };
 
