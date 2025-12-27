@@ -114,6 +114,8 @@
 &trans  &trans  &kp LA(LC(E))           &kp LA(LC(DOWN_ARROW))  &kp LA(LC(T))            &trans  &trans    &trans  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans                  &trans                  &trans                   &trans  &trans    &trans  &trans                                &trans  &trans
             >;
+
+            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
 
         layer_6 {
