@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans  &trans  &trans  &kp F11  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans                          &kp F12  &trans
+&kp TAB           &kp LG(Q)      &kp LC(W)  &kp LC(LG(E))  &kp LC(R)  &kp LS(LA(UP_ARROW))                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans
+&kp LEFT_CONTROL  &kp LG(SPACE)  &kp LG(S)  &kp LG(D)      &kp LG(F)  &kp LS(LG(V))           &trans    &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&kp LEFT_SHIFT    &kp LG(Z)      &kp LG(Z)  &kp LG(C)      &kp LG(V)  &kp LS(LG(DOWN_ARROW))  &trans    &trans   &trans  &trans  &trans  &trans  &kp F11  &trans
+&trans            &trans         &trans     &trans         &trans     &trans                  &trans    &trans   &trans                          &kp F12  &trans
             >;
         };
 
