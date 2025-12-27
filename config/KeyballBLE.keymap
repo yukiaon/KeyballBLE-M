@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&kp TAB           &kp LG(Q)      &kp LC(W)  &kp LC(LG(E))  &kp LC(R)  &kp LS(LA(UP_ARROW))                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans
-&kp LEFT_CONTROL  &kp LG(SPACE)  &kp LG(S)  &kp LG(D)      &kp LG(F)  &kp LS(LG(V))           &trans    &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&kp LEFT_SHIFT    &kp LG(Z)      &kp LG(Z)  &kp LG(C)      &kp LG(V)  &kp LS(LG(DOWN_ARROW))  &trans    &trans   &trans  &trans  &trans  &trans  &kp F11  &trans
-&trans            &trans         &trans     &trans         &trans     &trans                  &trans    &trans   &trans                          &kp F12  &trans
+&trans  &kp LG(Q)      &kp LC(W)  &kp LC(LG(E))  &kp LC(R)  &kp LS(LA(UP_ARROW))                                        &kp LG(UP_ARROW)    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp MINUS             &kp EQUAL
+&trans  &kp LG(SPACE)  &kp LG(S)  &kp LG(D)      &kp LG(F)  &kp LS(LG(V))           &trans           &kp F13            &kp LG(H)           &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&trans  &kp LG(Z)      &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LS(LG(DOWN_ARROW))  &kp LG(MINUS)    &kp LG(LS(EQUAL))  &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &kp LG(SLASH)         &trans
+&trans  &trans         &trans     &trans         &trans     &trans                  &trans           &trans             &trans                                                                       &kp NON_US_BACKSLASH  &trans
             >;
         };
 
