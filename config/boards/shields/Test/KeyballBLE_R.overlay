@@ -1,4 +1,6 @@
 #include "KeyballBLE.dtsi"
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/input-processor-keybind.h>
 
 &default_transform {
     col-offset = <7>;
@@ -16,10 +18,29 @@
 };
 
 / {
+    // レイヤー2でトラックボールを左右に動かすと Ctrl+←/→ (macOSのデスクトップ切替) を送る。
+    // 上下の動きは無効。動きは消費するのでカーソルは動かない。
+    zip_desktop_switch: zip_desktop_switch {
+        compatible = "zmk,input-processor-keybind";
+        #input-processor-cells = <0>;
+        bindings = <&kp LC(RIGHT)>,   // 右へ → 次のデスクトップ
+                   <&kp LC(LEFT)>,    // 左へ → 前のデスクトップ
+                   <&none>,           // 上 → 無効
+                   <&none>;           // 下 → 無効
+        tick = <60>;       // 1切替に必要な移動量(大きいほど鈍感)
+        wait-ms = <0>;
+        tap-ms = <10>;
+        track_remainders;
+    };
+
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
+        desktop_switch {
+            layers = <2>;
+            input-processors = <&zip_desktop_switch>;
+        };
     };
 };
 
