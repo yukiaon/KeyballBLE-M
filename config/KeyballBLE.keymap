@@ -64,7 +64,7 @@
 &kp LCTRL         &lt 4 LEFT_COMMAND  &kp ESCAPE  &lt 6 LEFT_COMMAND  &kp LEFT_ALT  &lt 2 SPACE  &mo 5         &kp BACKSPACE   &lt 1 ENTER                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
@@ -75,7 +75,7 @@
 &trans  &trans         &trans     &trans         &trans     &trans                  &trans                  &trans                &trans                                                                       &kp NON_US_BACKSLASH  &trans
             >;
 
-            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         NUM {
